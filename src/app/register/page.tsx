@@ -10,10 +10,8 @@ export default function RegisterPage() {
   return (
     <div className="min-h-screen flex items-center justify-center bg-gray-950">
       <div className="w-full max-w-sm p-8">
-        <h1 className="text-2xl font-bold text-white mb-6">Start Free Trial</h1>
-        <p className="text-gray-400 text-sm mb-6">
-          3 months free. No credit card required.
-        </p>
+        <Link href="/" className="text-xl font-bold text-white mb-4 block hover:opacity-80 transition">devguard</Link>
+        <h1 className="text-2xl font-bold text-white mb-6">Create Account</h1>
         <form action={formAction} className="space-y-4">
           <input
             name="name"

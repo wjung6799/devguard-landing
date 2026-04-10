@@ -14,8 +14,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Dev Diary",
-  description: "Your dev wiki and notes, organized by project",
+  title: "devguard",
+  description: "Context that follows your code — automatic diary, wiki, and rules for AI-assisted development",
 };
 
 export default function RootLayout({

@@ -14,6 +14,7 @@ function LoginForm() {
   return (
     <div className="min-h-screen flex items-center justify-center bg-gray-950">
       <div className="w-full max-w-sm p-8">
+        <Link href="/" className="text-xl font-bold text-white mb-4 block hover:opacity-80 transition">devguard</Link>
         <h1 className="text-2xl font-bold text-white mb-2">Log In</h1>
         {callback && (
           <p className="text-gray-400 text-sm mb-6">
