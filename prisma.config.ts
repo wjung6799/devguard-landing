@@ -8,9 +8,6 @@ export default defineConfig({
   migrations: {
     path: "prisma/migrations",
   },
-  earlyAccess: {
-    driverAdapters: true,
-  },
   datasource: {
     url: process.env["DATABASE_URL"] || "file:./dev.db",
   },
